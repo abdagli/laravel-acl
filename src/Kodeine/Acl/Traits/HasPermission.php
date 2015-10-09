@@ -177,6 +177,6 @@ trait HasPermission
             $permission = $permission->getKey();
         }
 
-        return (int) $permission;
+        return $permission;
     }
 }
